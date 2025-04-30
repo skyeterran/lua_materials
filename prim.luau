@@ -1,6 +1,6 @@
-local primitives = {}
+local prim = {}
 
-function primitives.float(value)
+function prim.float(value)
     return {
         kind = "constant",
         _type = "float",
@@ -10,4 +10,4 @@ function primitives.float(value)
     }
 end
 
-return primitives
+return prim
